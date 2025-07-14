@@ -1,0 +1,10 @@
+{
+    "switchs": [
+        "SW_Hotswap_Kailh_MX_1.00u",
+        "SW_Hotswap_Kailh_MX_1.50u",
+        "SW_Hotswap_Kailh_MX_2.00u"
+    ],
+    "diodes": [
+        "Diode-Dual"
+    ]
+}
