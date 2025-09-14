@@ -186,7 +186,7 @@
 		(uuid "ba941007-cce1-4208-9f0f-f579d378da0a")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Downloads/SK12D07VG4/SK12D07VG4.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/SK12D07VG4.step"
 		(offset
 			(xyz 0 0 0)
 		)

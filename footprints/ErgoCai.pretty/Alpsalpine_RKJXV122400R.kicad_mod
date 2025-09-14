@@ -803,7 +803,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../symbols/step/RKJXV122400R.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/RKJXV122400R--3DModel-STEP-805722.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -811,7 +811,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 180)
 		)
 	)
 )
