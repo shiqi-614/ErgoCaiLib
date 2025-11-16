@@ -55,8 +55,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -17 -13)
-		(end -17 13)
+		(start -18 -13.5)
+		(end -18 13.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "b79b2a26-db5e-4d4f-9b95-41acd2609912")
 	)
 	(fp_line
-		(start -17 -13)
-		(end 17 -13)
+		(start -18 -13.5)
+		(end 18 -13.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "cd41022b-7a31-4365-8c54-32a0b54fb691")
 	)
 	(fp_line
-		(start -17 13)
-		(end 17 13)
+		(start -18 13.5)
+		(end 18 13.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "c1ca7dc1-cb21-4e4b-be26-8da68919fd85")
 	)
 	(fp_line
-		(start 17 -13)
-		(end 17 13)
+		(start 18 -13.5)
+		(end 18 13.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "850db15e-4851-4e8b-a2ed-d458599901a5")
 	)
 	(fp_circle
-		(center -14.8 -10.8)
-		(end -12.9 -10.8)
+		(center -15.8 -11.3)
+		(end -13.9 -11.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "5f32cf8f-9389-4c58-a56a-615a137b0e65")
 	)
 	(fp_circle
-		(center -14.8 10.8)
-		(end -12.9 10.8)
+		(center -15.8 11.3)
+		(end -13.9 11.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "e91c1db8-033c-44a0-955d-11c29d6653a3")
 	)
 	(fp_circle
-		(center 14.8 -10.8)
-		(end 16.7 -10.8)
+		(center 15.8 -11.3)
+		(end 17.7 -11.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "4870f3ee-7807-44b8-a9dc-3743a4245886")
 	)
 	(fp_circle
-		(center 14.8 10.8)
-		(end 16.7 10.8)
+		(center 15.8 11.3)
+		(end 17.7 11.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -139,8 +139,8 @@
 		(uuid "1c480df1-950e-4eac-8596-01fabbdb2ed2")
 	)
 	(fp_circle
-		(center -14.8 -10.8)
-		(end -12.65 -10.8)
+		(center -15.8 -11.3)
+		(end -13.65 -11.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -150,8 +150,8 @@
 		(uuid "a005ab71-7eab-4d0a-901b-3b6a8a60b003")
 	)
 	(fp_circle
-		(center -14.8 10.8)
-		(end -12.65 10.8)
+		(center -15.8 11.3)
+		(end -13.65 11.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -161,8 +161,8 @@
 		(uuid "cd6b8a6a-8240-4404-acff-f0974b64e919")
 	)
 	(fp_circle
-		(center 14.8 -10.8)
-		(end 16.95 -10.8)
+		(center 15.8 -11.3)
+		(end 17.95 -11.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -172,8 +172,8 @@
 		(uuid "2a0f4282-f6b5-42a2-89a7-0e3ad8496afa")
 	)
 	(fp_circle
-		(center 14.8 10.8)
-		(end 16.95 10.8)
+		(center 15.8 11.3)
+		(end 17.95 11.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -183,28 +183,28 @@
 		(uuid "336a57a8-7c56-4262-bf93-f63a04e485d7")
 	)
 	(pad "" np_thru_hole circle
-		(at -14.8 -10.8)
+		(at -15.8 -11.3)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "121e65b4-fb13-4957-9e52-23ba3a97ce2d")
 	)
 	(pad "" np_thru_hole circle
-		(at -14.8 10.8)
+		(at -15.8 11.3)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "8c9e69f7-f887-4f22-a167-5f69d4aeafd9")
 	)
 	(pad "" np_thru_hole circle
-		(at 14.8 -10.8)
+		(at 15.8 -11.3)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "972fecfd-11fb-4d51-9bc6-b9d4bcc289a1")
 	)
 	(pad "" np_thru_hole circle
-		(at 14.8 10.8)
+		(at 15.8 11.3)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "F&B.Cu" "*.Mask")
