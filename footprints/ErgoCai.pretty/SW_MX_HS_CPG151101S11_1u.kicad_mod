@@ -561,4 +561,15 @@
 			(xyz 180 180 -0)
 		)
 	)
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/KS-3X Full Black Switch KS-3A10B060NN-X.stp"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

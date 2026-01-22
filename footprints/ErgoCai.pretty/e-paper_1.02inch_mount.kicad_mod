@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -20 -10.45)
-		(end 20 10.45)
+		(start -30 -10.45)
+		(end 30 10.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "9809530e-5a76-4270-9d98-d36613209771")
 	)
 	(fp_circle
-		(center -17.8562 -8.3058)
-		(end -15.9562 -8.3058)
+		(center -27.8384 -8.3058)
+		(end -25.9384 -8.3058)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -77,8 +77,8 @@
 		(uuid "454e1bdb-d8d0-4897-a288-281ae426dd1e")
 	)
 	(fp_circle
-		(center -17.8512 8.3058)
-		(end -15.9512 8.3058)
+		(center -27.8384 8.3058)
+		(end -25.9384 8.3058)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "543f223b-03f7-4d90-ada8-3cc0a9564c7f")
 	)
 	(fp_circle
-		(center -17.8562 -8.3058)
-		(end -15.7062 -8.3058)
+		(center -27.8384 -8.3058)
+		(end -25.6884 -8.3058)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -99,8 +99,8 @@
 		(uuid "a20eaf37-15b1-4055-a5fa-bf13f504351c")
 	)
 	(fp_circle
-		(center -17.8512 8.3058)
-		(end -15.7012 8.3058)
+		(center -27.8384 8.3058)
+		(end -25.6884 8.3058)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -122,14 +122,14 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -17.8562 -8.3058)
+		(at -27.8384 -8.3058)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "56490fa7-b3e3-4a63-84d0-fe86ba47dde8")
 	)
 	(pad "" np_thru_hole circle
-		(at -17.8512 8.3058)
+		(at -27.8384 8.3058)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
