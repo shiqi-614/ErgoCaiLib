@@ -27,3 +27,5 @@
 
 # New KiCAD 6 backup folders
 **/*backups/*
+
+.DS_Store

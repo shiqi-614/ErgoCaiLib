@@ -56,7 +56,7 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
 		(start -13 -13)
-		(end 13 13)
+		(end 14.5 13)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "e91c1db8-033c-44a0-955d-11c29d6653a3")
 	)
 	(fp_circle
-		(center 10.85 -10.85)
-		(end 12.75 -10.85)
+		(center 12.35 -10.85)
+		(end 14.25 -10.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -99,8 +99,8 @@
 		(uuid "4870f3ee-7807-44b8-a9dc-3743a4245886")
 	)
 	(fp_circle
-		(center 10.85 10.85)
-		(end 12.75 10.85)
+		(center 12.35 10.85)
+		(end 14.25 10.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -132,8 +132,8 @@
 		(uuid "cd6b8a6a-8240-4404-acff-f0974b64e919")
 	)
 	(fp_circle
-		(center 10.85 -10.85)
-		(end 13 -10.85)
+		(center 12.35 -10.85)
+		(end 14.5 -10.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,8 +143,8 @@
 		(uuid "2a0f4282-f6b5-42a2-89a7-0e3ad8496afa")
 	)
 	(fp_circle
-		(center 10.85 10.85)
-		(end 13 10.85)
+		(center 12.35 10.85)
+		(end 14.5 10.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,14 +168,14 @@
 		(uuid "8c9e69f7-f887-4f22-a167-5f69d4aeafd9")
 	)
 	(pad "" np_thru_hole circle
-		(at 10.85 -10.85)
+		(at 12.35 -10.85)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "972fecfd-11fb-4d51-9bc6-b9d4bcc289a1")
 	)
 	(pad "" np_thru_hole circle
-		(at 10.85 10.85)
+		(at 12.35 10.85)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")

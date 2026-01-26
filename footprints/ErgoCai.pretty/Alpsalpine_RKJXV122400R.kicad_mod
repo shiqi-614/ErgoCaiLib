@@ -814,4 +814,16 @@
 			(xyz -0 -0 180)
 		)
 	)
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Joystick Cap.stp"
+		(opacity 0.8000)
+		(offset
+			(xyz 0 0 18)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
 )
