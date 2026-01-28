@@ -54,17 +54,6 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_rect
-		(start -13 -13)
-		(end 14.5 13)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "ae16c9f2-92e9-45f4-8862-e31b0a9ac3e0")
-	)
 	(fp_circle
 		(center -10.85 -10.85)
 		(end -8.95 -10.85)
@@ -108,6 +97,17 @@
 		(fill no)
 		(layer "Cmts.User")
 		(uuid "1c480df1-950e-4eac-8596-01fabbdb2ed2")
+	)
+	(fp_rect
+		(start -13 -13)
+		(end 14.5 13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ae16c9f2-92e9-45f4-8862-e31b0a9ac3e0")
 	)
 	(fp_circle
 		(center -10.85 -10.85)

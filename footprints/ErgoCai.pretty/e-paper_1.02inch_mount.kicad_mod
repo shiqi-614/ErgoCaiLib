@@ -54,17 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -30 -10.45)
-		(end 30 10.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "9809530e-5a76-4270-9d98-d36613209771")
-	)
 	(fp_circle
 		(center -27.8384 -8.3058)
 		(end -25.9384 -8.3058)
@@ -86,6 +75,17 @@
 		(fill no)
 		(layer "Cmts.User")
 		(uuid "543f223b-03f7-4d90-ada8-3cc0a9564c7f")
+	)
+	(fp_rect
+		(start -30 -10.45)
+		(end 30 10.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9809530e-5a76-4270-9d98-d36613209771")
 	)
 	(fp_circle
 		(center -27.8384 -8.3058)
