@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "6d71c63d-9720-48be-ad03-30abee4541d2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "59c68059-24e7-48b9-90e9-fb34d8016fa6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start -19.05 -9.525)
-		(end -19.05 9.525)
+		(end -19.05 11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "d41facff-a875-48cd-ae36-76e9d1dff528")
 	)
 	(fp_line
-		(start -19.05 9.525)
-		(end 19.05 9.525)
+		(start -19.05 11)
+		(end 19.05 11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -164,7 +164,7 @@
 	)
 	(fp_line
 		(start 19.05 -9.525)
-		(end 19.05 9.525)
+		(end 19.05 11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -407,4 +407,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Stabilizer_clip_in_2u.step"
+		(offset
+			(xyz -12 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 180)
+		)
+	)
 )
