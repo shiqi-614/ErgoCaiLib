@@ -572,7 +572,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/Users/jinsongc/Development/dsa-keycap-master/DSA 2u.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/DSA_2u.step"
 		(opacity 0.8500)
 		(offset
 			(xyz 0 0 9.5)

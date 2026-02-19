@@ -74,7 +74,7 @@
 	)
 	(fp_line
 		(start -5.32 -5.27)
-		(end -5.32 2.6)
+		(end -5.32 2.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "3215d7dd-650e-4c6a-86e5-bc970c8d9c6c")
 	)
 	(fp_line
-		(start -5.32 2.6)
-		(end 5.32 2.6)
+		(start -5.32 2.4)
+		(end 5.32 2.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -104,7 +104,7 @@
 	)
 	(fp_line
 		(start 5.32 -5.27)
-		(end 5.32 2.6)
+		(end 5.32 2.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -306,15 +306,15 @@
 		(uuid "e783dde5-f762-4528-9b55-9220820b0b1c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_TYPE-C-31-M-12.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 		(offset
-			(xyz -4.47 -3.65 0.04)
+			(xyz 0 -1 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 180 -180)
 		)
 	)
 )
