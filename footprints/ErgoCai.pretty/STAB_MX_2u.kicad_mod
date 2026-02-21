@@ -407,7 +407,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Stabilizer_clip_in_2u.step"
+	(model "${ERGOCAI_LIB}/3dmodels/Stabilizer_clip_in_2u.step"
 		(offset
 			(xyz -12 0 3.5)
 		)
