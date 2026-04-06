@@ -29,3 +29,5 @@
 **/*backups/*
 
 .DS_Store
+*.swl
+*.wrl

@@ -1,7 +1,7 @@
 (footprint "Battery_Holder_18650_Nickel"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.016 0 90)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16c710f1-4947-487a-a32e-a2e884b9e8d3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,6 +52,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -9 -35.225)
+		(end 9 35.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6e0a0744-4fe3-49c3-9e40-1ebe91a5448e")
+	)
 	(fp_line
 		(start -9 -32.5)
 		(end -9 32.5)
@@ -242,6 +241,7 @@
 		(remove_unused_layers no)
 		(uuid "6c7d8894-c303-4adb-b393-82a3eec5a025")
 	)
+	(embedded_fonts no)
 	(model "/Users/jinsongc/Documents/KiCad/8.0/3dmodels/ErgoCai/Battery_Holder_18650_Nickel.step"
 		(offset
 			(xyz 0 27.7 0)
