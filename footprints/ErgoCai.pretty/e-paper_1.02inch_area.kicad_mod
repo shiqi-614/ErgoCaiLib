@@ -1,4 +1,4 @@
-(footprint "e-paper_1.02inch_mount"
+(footprint "e-paper_1.02inch_area"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "e-paper_1.02inch_mount"
+	(property "Value" "e-paper_1.02inch_area"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -54,31 +54,9 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 17.8 -8.3)
-		(end 19.7 -8.3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "454e1bdb-d8d0-4897-a288-281ae426dd1e")
-	)
-	(fp_circle
-		(center 17.8 8.3)
-		(end 19.7 8.3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "543f223b-03f7-4d90-ada8-3cc0a9564c7f")
-	)
 	(fp_rect
-		(start -20 -10.45)
-		(end 20 10.45)
+		(start -20 -13.8)
+		(end 20 13.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -86,28 +64,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9809530e-5a76-4270-9d98-d36613209771")
-	)
-	(fp_circle
-		(center 17.8 -8.3)
-		(end 19.95 -8.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "a20eaf37-15b1-4055-a5fa-bf13f504351c")
-	)
-	(fp_circle
-		(center 17.8 8.3)
-		(end 19.95 8.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "87587c31-0930-46e2-85fa-645feb3ee049")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -120,20 +76,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at 17.8 -8.3)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "56490fa7-b3e3-4a63-84d0-fe86ba47dde8")
-	)
-	(pad "" np_thru_hole circle
-		(at 17.8 8.3)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "63bf6d70-8750-4722-8b6a-76d309c32e40")
 	)
 	(embedded_fonts no)
 )
