@@ -242,7 +242,7 @@
 		(uuid "6c7d8894-c303-4adb-b393-82a3eec5a025")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Documents/KiCad/8.0/3dmodels/ErgoCai/Battery_Holder_18650_Nickel.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Battery_Holder_18650_Nickel.step"
 		(offset
 			(xyz 0 27.7 0)
 		)
@@ -253,7 +253,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/Users/jinsongc/Documents/KiCad/8.0/3dmodels/ErgoCai/Battery_Holder_18650_Nickel.step"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Battery_Holder_18650_Nickel.step"
 		(offset
 			(xyz 0 -27.77 0)
 		)
@@ -264,7 +264,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "/Users/jinsongc/Documents/KiCad/8.0/3dmodels/ErgoCai/Battery_18650.stp"
+	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Battery_18650.stp"
 		(offset
 			(xyz 0 -32.5 10)
 		)
