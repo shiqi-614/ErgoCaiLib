@@ -1,0 +1,112 @@
+(footprint "joystick_fpc_hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e7ed113-ba63-4bf5-8bf1-3ddb3a7838ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "joystick_fpc_hole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be21932b-9aff-44a4-9c4e-e23043d9044a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd3afce4-7b87-4f5e-89f5-2924405747e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e75bdf-482a-485b-9798-7932ab00bd13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.2 -0.5)
+		(end 4.2 -0.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "64e529e4-57ce-40a6-b1b2-58868de11ff2")
+	)
+	(fp_line
+		(start 4.2 0.5)
+		(end -4.2 0.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fbfdddc1-b796-4cfd-b31c-d28634bd1cf3")
+	)
+	(fp_arc
+		(start -4.2 0.5)
+		(mid -4.7 0)
+		(end -4.2 -0.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cee0ad8b-cdb2-4194-b3a0-145faeb8a705")
+	)
+	(fp_arc
+		(start 4.2 -0.5)
+		(mid 4.7 0)
+		(end 4.2 0.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ca00f68-8383-46ef-a30a-fd4097ae7263")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33213d05-9b89-4775-8ae6-add14cd7d693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
