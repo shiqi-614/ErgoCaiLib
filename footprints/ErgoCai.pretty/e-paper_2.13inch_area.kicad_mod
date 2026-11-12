@@ -1,4 +1,4 @@
-(footprint "e-paper_1.02inch_area"
+(footprint "e-paper_2.13inch_area"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5e7ed113-ba63-4bf5-8bf1-3ddb3a7838ca")
+		(uuid "84f90937-ea72-56d4-befc-47f7cc5ec682")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "e-paper_1.02inch_area"
+	(property "Value" "e-paper_2.13inch_area"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "be21932b-9aff-44a4-9c4e-e23043d9044a")
+		(uuid "3a1dfac6-3f52-5dd7-828c-dfd37f6e1500")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd3afce4-7b87-4f5e-89f5-2924405747e6")
+		(uuid "27f933b9-ac29-5048-822f-360b2b604ddc")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "15e75bdf-482a-485b-9798-7932ab00bd13")
+		(uuid "3018ba36-494f-5ab6-9495-6d8fa6cf16a1")
 		(effects
 			(font
 				(size 1 1)
@@ -55,21 +55,21 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -20 -13.8)
-		(end 20 13.8)
+		(start -15 -34.4)
+		(end 15 34.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9809530e-5a76-4270-9d98-d36613209771")
+		(uuid "3f6e7825-7c83-5701-942e-964acd115bfd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "33213d05-9b89-4775-8ae6-add14cd7d693")
+		(uuid "c7d2bcff-ab51-5fe3-91aa-7053994183b7")
 		(effects
 			(font
 				(size 1 1)

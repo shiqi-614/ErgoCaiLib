@@ -1,0 +1,122 @@
+(footprint "LED_SK6805-EC20_2.0x2.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OPSCO SK6805-EC20 addressable RGB LED, 2.0x2.0x0.65mm, 1=GND 2=DIN 3=VDD 4=DOUT, pads per datasheet (0.8x0.7, gap 0.5). https://www.lcsc.com/product-detail/C2890036.html")
+	(tags "LED RGB addressable SK6805 2020")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "e309feb7-6810-5b82-8236-cbc1ad470998")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SK6805-EC20"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "a10842fe-eefc-56a9-895e-72dfc73dd5ca")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/C2890036.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90a10591-e68b-5f07-ace4-74c48bd25a85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "OPSCO SK6805-EC20 addressable RGB LED, 2.0x2.0x0.65mm, 1=GND 2=DIN 3=VDD 4=DOUT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e01380cb-27e9-590c-9bba-270285e617fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "097bebe8-d290-5e3e-b882-11382fa11758")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -0.6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7509fb06-428c-5acf-889b-32bdb209815c")
+	)
+	(fp_rect
+		(start -1.4 -1.25)
+		(end 1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4aecc41c-15e4-5514-8249-12c014a2bf45")
+	)
+	(fp_poly
+		(pts (xy -1.35 -1.2) (xy -0.95 -1.2) (xy -1.35 -0.8))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "91f2bceb-db5a-53aa-ac4d-91601b7b2ebf")
+	)
+	(pad "1" smd rect
+		(at -0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f156783-5f55-58b5-b537-245d560390be")
+	)
+	(pad "2" smd rect
+		(at -0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9eb155b8-9b84-5f19-a857-de534ccfc715")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eea80435-3aa3-5a9c-a278-2f54647b8afb")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7bea84c0-5dbb-5cff-ab9e-bf699095f0cf")
+	)
+	(embedded_fonts no)
+)
