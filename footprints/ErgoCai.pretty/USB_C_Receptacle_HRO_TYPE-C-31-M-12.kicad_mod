@@ -163,6 +163,17 @@
 			)
 		)
 	)
+	(fp_rect
+		(start -5.6 1.7)
+		(end 5.6 5.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f7d5e9f8-7f67-4c91-908d-a603940b5863")
+	)
 	(pad "" np_thru_hole circle
 		(at -2.89 -2.6)
 		(size 0.65 0.65)
