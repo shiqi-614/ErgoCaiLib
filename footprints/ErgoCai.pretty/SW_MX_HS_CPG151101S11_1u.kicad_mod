@@ -251,6 +251,28 @@
 		(layer "Eco2.User")
 		(uuid "b9341a1b-dc6a-4f93-856e-36020ce9d7b5")
 	)
+	(fp_rect
+		(start -2 -7.6)
+		(end 2 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "305a1534-e706-4d83-bb11-e9fbdda4951d")
+	)
+	(fp_rect
+		(start -2 7)
+		(end 2 7.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco2.User")
+		(uuid "31a840af-48fe-46fd-8562-9a94dcfef96d")
+	)
 	(fp_line
 		(start -8.685176 -3.75022)
 		(end -8.685176 -1.30022)
