@@ -119,4 +119,15 @@
 		(uuid "7bea84c0-5dbb-5cff-ab9e-bf699095f0cf")
 	)
 	(embedded_fonts no)
+	(model "${ERGOCAI_LIB}/3dmodels/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 0.8125)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

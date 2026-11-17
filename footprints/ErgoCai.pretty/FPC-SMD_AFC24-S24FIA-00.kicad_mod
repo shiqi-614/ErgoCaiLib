@@ -353,4 +353,15 @@
 		(uuid "373902c0-5428-5c55-a506-9d0ee13bcb7e")
 	)
 	(embedded_fonts no)
+	(model "${ERGOCAI_LIB}/3dmodels/FPC-SMD_P0.50-24P_QCHF-SM-H2.0.step"
+		(offset
+			(xyz 0 0.126 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

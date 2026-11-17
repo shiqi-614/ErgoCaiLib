@@ -12,6 +12,7 @@
 #                           for as long as the URL stays the same.
 
 "${ERGOCAI_LIB}": github:shiqi-614/ErgoCaiLib
+"${ERGOCAI_MODULES}": github:shiqi-614/ErgoCai.modules
 
 # KiCad's own library. Its home on GitLab doesn't allow downloads from other sites; the GitHub mirror stopped at
 # KiCad 5.1.7, but has the parts these footprints use. Not through jsDelivr: the repo is over its 50 MB limit, and
