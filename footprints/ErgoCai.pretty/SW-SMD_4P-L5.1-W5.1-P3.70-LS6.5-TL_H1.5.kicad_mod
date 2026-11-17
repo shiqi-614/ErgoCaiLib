@@ -268,7 +268,7 @@
 		(uuid "e89c87a7-ec3d-4d54-a406-f729f19f3d3f")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step"
+	(model "${ERGOCAI_LIB}/3dmodels/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step"
 		(offset
 			(xyz 0 -0 -0)
 		)

@@ -182,7 +182,7 @@
 		(uuid "62aa2ed8-342d-45b4-87ec-40b8a309183b")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Alpsalpine.step"
+	(model "${ERGOCAI_LIB}/3dmodels/Alpsalpine.step"
 		(opacity 0.8100)
 		(offset
 			(xyz 0 0 4)

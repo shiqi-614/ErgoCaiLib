@@ -192,7 +192,7 @@
 		(uuid "c01f6b90-3421-4ebf-8ba9-68c7e3bf9d42")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/FPC-SMD_6P-P0.50_JS_AFD01-S06FCA-00.step"
+	(model "${ERGOCAI_LIB}/3dmodels/FPC-SMD_6P-P0.50_JS_AFD01-S06FCA-00.step"
 		(offset
 			(xyz -0 1.53 0)
 		)

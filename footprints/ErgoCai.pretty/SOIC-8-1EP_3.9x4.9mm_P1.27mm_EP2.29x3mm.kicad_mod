@@ -300,7 +300,7 @@
 		(uuid "02e66360-d764-4b29-894d-c25980c8ae4c")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
+	(model "${ERGOCAI_LIB}/3dmodels/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

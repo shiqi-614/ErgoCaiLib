@@ -401,7 +401,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "cc31f4f5-bd43-48fd-9889-2f28d83b4db0")
 	)
-	(model "/Users/jinsongc/Documents/KiCad/8.0/3dmodels/ErgoCai/HolyIot_18010_nRF52840.step"
+	(model "${ERGOCAI_LIB}/3dmodels/holyiot_18010_nRF52840.step"
 		(offset
 			(xyz 0 0 0)
 		)

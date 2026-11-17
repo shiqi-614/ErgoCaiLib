@@ -550,7 +550,7 @@
 		(uuid "1db8ccdb-d377-428b-b096-5e1ee7615369")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/HS_CPG151101S11_MX.step"
+	(model "${ERGOCAI_LIB}/3dmodels/HS_CPG151101S11_MX.step"
 		(offset
 			(xyz 4.71 6.74 -3.5)
 		)
@@ -561,7 +561,7 @@
 			(xyz 180 180 -0)
 		)
 	)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/KS-3X Full Black Switch KS-3A10B060NN-X.stp"
+	(model "${ERGOCAI_LIB}/3dmodels/KS-3X Full Black Switch KS-3A10B060NN-X.stp"
 		(offset
 			(xyz 0 0 -3)
 		)
@@ -572,7 +572,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/DSA_1u.step"
+	(model "${ERGOCAI_LIB}/3dmodels/DSA_1u.step"
 		(opacity 0.7700)
 		(offset
 			(xyz 0 0 9.5)

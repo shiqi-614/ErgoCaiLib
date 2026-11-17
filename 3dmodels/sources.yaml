@@ -1,0 +1,29 @@
+# Where ergogen-gui's 3D preview downloads the footprints' 3D models from.
+#
+# A footprint names its model with a KiCad path, like ${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl.
+# The preview takes the longest entry below that the path starts with, and downloads the rest of the path from the
+# entry's address. An entry can also be a whole path, for one file that is somewhere else.
+#
+# An address is either
+#   github:<owner>/<repo>   a GitHub repo, read like the footprints are: at the commit they come from, so a changed
+#                           model shows up together with its footprint, or
+#   a URL                   that lets other sites download from it (CORS): raw.githubusercontent.com does, gitlab.com
+#                           doesn't. Pin it to a tag or a commit: the preview keeps the model it converted from a URL
+#                           for as long as the URL stays the same.
+
+"${ERGOCAI_LIB}": github:shiqi-614/ErgoCaiLib
+
+# KiCad's own library. Its home on GitLab doesn't allow downloads from other sites; the GitHub mirror stopped at
+# KiCad 5.1.7, but has the parts these footprints use. Not through jsDelivr: the repo is over its 50 MB limit, and
+# it refuses some of the files.
+"${KICAD6_3DMODEL_DIR}": https://raw.githubusercontent.com/KiCad/kicad-packages3D/5.1.7
+"${KICAD7_3DMODEL_DIR}": https://raw.githubusercontent.com/KiCad/kicad-packages3D/5.1.7
+"${KICAD8_3DMODEL_DIR}": https://raw.githubusercontent.com/KiCad/kicad-packages3D/5.1.7
+"${KICAD9_3DMODEL_DIR}": https://raw.githubusercontent.com/KiCad/kicad-packages3D/5.1.7
+
+# libraries installed with KiCad's Plugin and Content Manager, each under 3dmodels/<its package id>
+"${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library": https://raw.githubusercontent.com/perigoso/keyswitch-kicad-library/v2.4/library/3dmodels
+"${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library": https://raw.githubusercontent.com/perigoso/keyswitch-kicad-library/v2.4/library/3dmodels
+"${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library": https://raw.githubusercontent.com/perigoso/keyswitch-kicad-library/v2.4/library/3dmodels
+"${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib": https://raw.githubusercontent.com/ebastler/marbastlib/2026.03.22/3dmodels
+"${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib": https://raw.githubusercontent.com/ebastler/marbastlib/2026.03.22/3dmodels

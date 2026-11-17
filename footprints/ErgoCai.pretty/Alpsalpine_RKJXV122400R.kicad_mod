@@ -803,7 +803,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/RKJXV122400R--3DModel-STEP-805722.STEP"
+	(model "${ERGOCAI_LIB}/3dmodels/RKJXV122400R--3DModel-STEP-805722.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -814,7 +814,7 @@
 			(xyz -0 -0 180)
 		)
 	)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/Joystick Cap.stp"
+	(model "${ERGOCAI_LIB}/3dmodels/Joystick Cap.stp"
 		(opacity 0.8000)
 		(offset
 			(xyz 0 0 18)

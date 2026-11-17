@@ -200,7 +200,7 @@
 		(uuid "dd9eecb5-87cb-42a6-baae-af0c098b27ff")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/LED_0603_1608Metric.step"
+	(model "${ERGOCAI_LIB}/3dmodels/LED_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

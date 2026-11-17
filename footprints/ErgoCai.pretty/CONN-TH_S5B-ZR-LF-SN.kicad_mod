@@ -248,7 +248,7 @@
 		(uuid "4b7c84c3-276e-4e22-9d07-1099e477c30c")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/CONN-TH_S5B-ZR-LF-SN.wrl"
+	(model "${ERGOCAI_LIB}/3dmodels/CONN-TH_S5B-ZR-LF-SN.wrl"
 		(offset
 			(xyz 0 -0.1 0)
 		)

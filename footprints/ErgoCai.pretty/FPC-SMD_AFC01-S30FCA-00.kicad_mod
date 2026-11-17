@@ -355,7 +355,7 @@
 		(uuid "fc80fb40-3b55-4b2b-bcd6-de4d498bc849")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FPC-SMD_AFC01-S30FCA-00.wrl"
+	(model "${ERGOCAI_LIB}/3dmodels/FPC-SMD_AFC01-S30FCA-00.step"
 		(offset
 			(xyz -0 -1.3 2)
 		)

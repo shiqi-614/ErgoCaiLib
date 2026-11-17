@@ -256,7 +256,7 @@
 		(uuid "26825d97-07b9-401f-870f-d2ff34ae3263")
 	)
 	(embedded_fonts no)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/BA1AAPC.step"
+	(model "${ERGOCAI_LIB}/3dmodels/BA1AAPC.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -267,7 +267,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "/Users/jinsongc/Development/ErgoCaiLib/3dmodels/14500.stp"
+	(model "${ERGOCAI_LIB}/3dmodels/Battery_14500.stp"
 		(offset
 			(xyz 25 0 7)
 		)
