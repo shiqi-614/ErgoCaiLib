@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Good Display GDEY0213B74 2.13in e-paper panel, as taped to the front of the ErgoCai 2.13inch module, with its FPC folded round the board notch into the 24-pin connector on the back. Mechanical only: 59.2 x 29.2 x 1.0 mm outline, 48.55 x 23.70 mm active area. The origin is the panel centre.")
+	(descr "Good Display GDEY0213B74 2.13in e-paper panel, as taped to the front of the ErgoCai 2.13inch module, with its FPC folded round the board notch into the 24-pin connector on the back. Mechanical only, from the datasheet p7 drawing: 59.2 x 29.2 x 1.0 mm outline; 56.85 x 28.20 mm protective sheet, 1.90 mm from the FPC end; 48.55 x 23.70 mm active area, centred across and 7.95 mm from the FPC end. The origin is the panel centre.")
 	(tags "e-paper epd GDEY0213B74 2.13")
 	(property "Reference" "EP_PANEL"
 		(at 0 -31 0)
@@ -65,8 +65,19 @@
 		(uuid "e29cabb5-be09-4910-81fd-4b85b39fe243")
 	)
 	(fp_rect
-		(start -11.85 -19.8)
-		(end 11.85 28.75)
+		(start -14.1 -27.7)
+		(end 14.1 29.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ce40fce-0f1a-4fbc-9a76-26b09e525773")
+	)
+	(fp_rect
+		(start -11.85 -21.65)
+		(end 11.85 26.9)
 		(stroke
 			(width 0.1)
 			(type default)
