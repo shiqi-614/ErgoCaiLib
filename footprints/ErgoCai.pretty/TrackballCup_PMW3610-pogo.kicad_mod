@@ -1,0 +1,88 @@
+(footprint "TrackballCup_PMW3610-pogo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "trackball ball cup PMW3610")
+	(property "Reference" "REF**"
+		(at 0 -20 0)
+		(layer "F.Fab")
+		(uuid "d3513df2-2634-4f37-9272-12a467504266")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TrackballCup_PMW3610-pogo"
+		(at 0 20 0)
+		(layer "F.Fab")
+		(uuid "5c7d6980-73c7-43aa-9432-ba74460546b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dd49c77-c02d-4a71-b17d-62f6cbbeba98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "The ball cup of ErgoCai.modules trackball/PMW3610-pogo (cup/cup.js, 3D printed) with its 25 mm ball and three 2.5 mm support balls in place, for the 3D view only: no copper, nothing in the BOM. The cup is 28.4 mm round with a plate over the board, inside the case opening of the joystick mount, and snaps onto the board's top and bottom edges. Origin on the ball's axis, the sensor's optical centre; the model is cup.js --step, for a lens 3.4 mm over the board."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62cb6ba5-b2fc-4519-9bc9-e04107c44522")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 12.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6d498ed5-211a-4934-b69c-ae531fb8affb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 14.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f6d8d757-f5a4-4069-984b-dc819312eb9d")
+	)
+	(embedded_fonts no)
+	(model "${ERGOCAI_LIB}/3dmodels/TrackballCup_PMW3610-pogo.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
