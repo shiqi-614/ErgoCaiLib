@@ -1,4 +1,4 @@
-(footprint "Ps4JoystickMount_FfcPogo"
+(footprint "Ps4JoystickMount_Pogo"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Ps4JoystickMount_FfcPogo"
+	(property "Value" "Ps4JoystickMount_Pogo"
 		(at -0.0254 12.1158 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "The joystick module (Alpsalpine-ffc-pogo) on 4 mm: four M2 standoffs and screws, or M2 locating pins at the PIN corners (on 4 mm spacers) and a 4 x 2 mm disc magnet pair at each MAG corner (north up on this board), the magnets 4 mm together. No 3D model of the module here: the config's assemblies place it as a part of its own (ErgoCai.modules joystick/Alpsalpine-ffc-pogo/Alpsalpine-ffc-pogo.glb)"
+	(property "Description" "A pogo module (joystick/Alpsalpine-pogo, trackball/PMW3610-pogo) on 4 mm: four M2 standoffs and screws, or M2 locating pins at the PIN corners (on 4 mm spacers) and a 4 x 2 mm disc magnet pair at each MAG corner (north up on this board), the magnets 4 mm together. No 3D model of the module here: the config's assemblies place it as a part of its own (ErgoCai.modules joystick/Alpsalpine-pogo/Alpsalpine-pogo.glb, trackball/PMW3610-pogo/PMW3610-pogo.glb)"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
