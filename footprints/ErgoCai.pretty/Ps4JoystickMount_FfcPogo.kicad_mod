@@ -1,0 +1,251 @@
+(footprint "Ps4JoystickMount_FfcPogo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1524 10.6172 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47d23aaa-ea6c-45fb-8ec0-ca6b13eab176")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ps4JoystickMount_FfcPogo"
+		(at -0.0254 12.1158 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5022d49-a642-4f92-b7c4-64d1af916e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e00c131-73f6-4b27-932a-a39d040aa416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "The joystick module (Alpsalpine-ffc-pogo) on 4 mm: four M2 standoffs and screws, or M2 locating pins at the PIN corners (on 4 mm spacers) and a 4 x 2 mm disc magnet pair at each MAG corner (north up on this board), the magnets 4 mm together. No 3D model of the module here: the config's assemblies place it as a part of its own (ErgoCai.modules joystick/Alpsalpine-ffc-pogo/Alpsalpine-ffc-pogo.glb)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55fef4bf-7a06-4ecf-9fd6-d93110b34d66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center -10.85 -10.85)
+		(end -8.95 -10.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "073c0d75-f9fc-4a1c-b518-6f4fb4941bd6")
+	)
+	(fp_circle
+		(center -10.85 10.85)
+		(end -8.95 10.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "04bc0427-0fa5-4256-8868-b85865fed4b5")
+	)
+	(fp_circle
+		(center 12.35 -10.85)
+		(end 14.25 -10.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "36a5785f-7e57-41c3-a5f0-9323eba0608f")
+	)
+	(fp_circle
+		(center 12.35 10.85)
+		(end 14.25 10.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "fd27528f-6c9d-44b9-aa5c-79cc6d8fa27f")
+	)
+	(fp_rect
+		(start -13.1 -13.1)
+		(end 14.6 13.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5811eac-67c1-41ff-99a9-db945e73bbc0")
+	)
+	(fp_circle
+		(center -10.85 -10.85)
+		(end -8.7 -10.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "39c3e2a5-dd00-4107-9fcc-337b897c81f5")
+	)
+	(fp_circle
+		(center -10.85 10.85)
+		(end -8.7 10.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c1ff5c80-f7e1-4b31-af9a-b0689aefdde7")
+	)
+	(fp_circle
+		(center 12.35 -10.85)
+		(end 14.5 -10.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "86acde0d-154c-4c7b-8c87-ca7b8dd8b01a")
+	)
+	(fp_circle
+		(center 12.35 10.85)
+		(end 14.5 10.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "152b4e60-81ee-4160-8571-d48d50bb82e3")
+	)
+	(pad "" np_thru_hole circle
+		(at -10.85 -10.85)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e85af1b1-eccb-496b-ad16-3baff6b25b77")
+	)
+	(pad "" np_thru_hole circle
+		(at -10.85 10.85)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a99381f8-37ce-472f-b00b-5faeb6d5cc0a")
+	)
+	(pad "" np_thru_hole circle
+		(at 12.35 -10.85)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "75e49807-1b2c-40c7-bd18-93825fa9014d")
+	)
+	(pad "" np_thru_hole circle
+		(at 12.35 10.85)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c1bb0e40-cbf4-4b46-bc12-9c59418ebb9a")
+	)
+	(fp_circle
+		(center 12.35 -10.85)
+		(end 14.45 -10.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "26d2d20a-7896-47de-8839-37d8a702da82")
+	)
+	(fp_text user "MAG"
+		(at 8.05 -10.85 0)
+		(layer "F.SilkS")
+		(uuid "99149fc5-0297-4e76-a164-38ea28840bda")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_circle
+		(center -10.85 10.85)
+		(end -8.75 10.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9782f57e-f1a0-4f17-b48f-db35624f1953")
+	)
+	(fp_text user "MAG"
+		(at -6.55 10.85 0)
+		(layer "F.SilkS")
+		(uuid "bf27bb78-e6ca-4245-a916-63472002317c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "PIN"
+		(at -6.55 -10.85 0)
+		(layer "F.SilkS")
+		(uuid "7c78f4bc-cae5-4b19-9c6c-24270f8eb257")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "PIN"
+		(at 8.05 10.85 0)
+		(layer "F.SilkS")
+		(uuid "49f89748-4eb9-4476-a523-b3fb066d63cb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

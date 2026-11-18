@@ -1,0 +1,133 @@
+(footprint "Pogo_Target_2x3_P2.54x3.50mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "99aca384-9fae-4200-a9a4-abe63771b8d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Pogo_Target_2x3"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "0d932dfb-68c9-49f3-8c5e-44f8913909f0")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "783ab744-6b75-4295-a4d2-b4f14ea25f57")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Gold contact pads for six pogo pins 2.54 x 3.50 mm apart (Pogo_KTT50003UT01-R) on the back of the board above: pads 1-3 along the bottom row, 4-6 back along the top. No paste; finish the board ENIG."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf4772d4-c400-412f-ba6b-728f1963f0c2")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3.7 -2.9)
+		(end 3.7 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d68ec549-94f7-4c9a-ae65-7a9f614e7214")
+	)
+	(fp_rect
+		(start -3.75 -3.0)
+		(end 3.75 3.0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "15c56223-fcbf-4c44-87b2-4e85c9f7b552")
+	)
+	(fp_poly
+		(pts (xy -4.2 2.4) (xy -4.2 1.1) (xy -3.85 1.75))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cdffeee8-902c-4040-b781-c39977e0c9f7")
+	)
+	(fp_rect
+		(start -4.0 -3.25)
+		(end 4.0 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0731a107-a4f4-48ac-ad3a-69c4e5b4a8e1")
+	)
+	(pad "1" smd circle
+		(at -2.54 1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bd328923-f642-4118-b893-0ea55fa499a7")
+	)
+	(pad "2" smd circle
+		(at 0 1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "eb625a8c-9ce6-49e7-adda-ddeeddb8574f")
+	)
+	(pad "3" smd circle
+		(at 2.54 1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "245c6262-679b-41ab-ad2e-0b1e7570520d")
+	)
+	(pad "4" smd circle
+		(at 2.54 -1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a3f541e0-20bd-4d0b-b2d0-528371b872e6")
+	)
+	(pad "5" smd circle
+		(at 0 -1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "edd5a369-0eeb-43d0-a7bd-e6c4c136a911")
+	)
+	(pad "6" smd circle
+		(at -2.54 -1.75)
+		(size 2.0 2.0)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3d457924-582d-47dd-9cb1-80db9d3e14dd")
+	)
+	(embedded_fonts no)
+)

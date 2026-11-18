@@ -1,0 +1,118 @@
+(footprint "Pogo_KTT50003UT01-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "e995242b-b2de-4515-ab57-3bdcfa20f462")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "KTT50003UT01-R"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "3abe7e8c-655a-4518-ab73-1df62f5e300d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/C56282211.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b77e163-c349-46ab-a335-7c28003c5994")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Pogo pin KERUI KTT50003UT01-R (LCSC C56282211), through hole: 5.00 mm free, 3.70 mm normal (50 g +-20 g) and 3.80 mm max working height, 3.50 mm fully in; 2.0 mm flange, 1.5 mm barrel, 0.9 mm plunger; 0.7 x 1.0 mm tail in a 0.9 mm plated hole. The flange sits on the pad and is soldered on that side; the tail side stays under solder mask, so no solder comes out there and a part can sit flat over the pin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b598e58c-a2ad-4153-874b-d6536974bbe5")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C56282211"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef89aeec-1e6d-4c15-a601-eb2651042f5e")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2dc376b2-6268-4123-b519-a78a99518d48")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5934cbfd-235e-45c6-83b3-e12979381cce")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "29b19e2f-9934-4b2e-8adf-06b2d36651d6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 0.9)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "abf3f848-69f5-4bee-aa76-463972dfc16b")
+	)
+	(embedded_fonts no)
+	(model "${ERGOCAI_LIB}/3dmodels/KTT50003UT01-R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
