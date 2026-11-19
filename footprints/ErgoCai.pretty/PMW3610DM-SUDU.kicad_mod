@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "PixArt PMW3610DM-SUDU low power laser mouse sensor, 16-pin molded lead-frame DIP, 1.78 mm pitch, rows 10.70 mm apart; pads and the aperture for the LM18-LSI lens from the datasheet (Figure 5). Origin at the optical center. The sensor sits on this side, the lens on the other side through the aperture, 2.4 mm (2.2-2.6) from its reference plane to the tracking surface. The lens outline (other side Fab/CrtYd) is the aperture plus 0.5 mm between the pad rows, an assumption: no LM18-LSI drawing was found.")
+	(descr "PixArt PMW3610DM-SUDU low power laser mouse sensor, 16-pin molded lead-frame DIP, 1.78 mm pitch, rows 10.70 mm apart; pads and the aperture for the LM18-LSI lens from the datasheet (Figure 5). Origin at the optical center. The sensor sits on this side, the lens on the other side through the aperture, 2.4 mm (2.2-2.6) from its reference plane to the tracking surface. The lens (LM18-LSI datasheet PMS0039, 12.90 x 8.25 mm) goes up through the aperture against the sensor's pin reference plane; its reference plane is 5.95 mm from that, 4.35 mm over this board's other side at 1.6 mm. The other side's Fab/CrtYd is the aperture plus 0.5 mm.")
 	(tags "PMW3610 PixArt mouse sensor trackball LM18-LSI")
 	(property "Reference" "REF**"
 		(at -3.0 -7.0 0)
