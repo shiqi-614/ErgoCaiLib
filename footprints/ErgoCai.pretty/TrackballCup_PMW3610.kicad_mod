@@ -38,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" "The ball cup of ErgoCai.modules trackball/PMW3610, the trackball on the keyboard board itself (cup.js --fix screws, 3D printed), with its 25 mm ball and three 2.5 mm support balls in place. The cup is 28.4 mm round with a plate over the board, held by four M2 screws through the plate's corners and the board (TB_H1..TB_H4), nuts under it. Its Dwgs.User rectangle is the case cut-out over it: the plate with room for the screw heads, which the case's parts over the board cut (layers: [Dwgs.User], grown by 1.5 mm); no courtyard, as it sits over its own screw holes. No copper, nothing in the BOM. Origin on the ball's axis, the sensor's optical centre; the model is cup.js --fix screws --step, for the lens's reference plane 4.35 mm over a 1.6 mm board."
+	(property "Description" "The ball seat of ErgoCai.modules trackball/PMW3610, the trackball on the keyboard board itself (cup.js --fix screws --style seat --support 2, 3D printed, after htx-studio's One-Handed Keyboard seat): a plinth with four lobes, each a boss with an M2 heat-set insert screwed from under the board (TB_H1..TB_H4), and a shell that follows the ball; three 2 mm balls set half into the wall carry it, three more in vertical holes in three lugs over the equator hold it down. Its Dwgs.User square is the case cut-out over it, round the lugs and the bosses (grown by 1.5 mm by the case); no courtyard, as it sits over its own screw holes. No copper, nothing in the BOM. Origin on the ball's axis, the sensor's optical centre; the model is cup.js --step, with the 25 mm ball and the six small ones, for the lens's reference plane 4.35 mm over a 1.6 mm board."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -74,8 +74,8 @@
 		(uuid "27a6ecaf-a25d-417a-8c0f-089619dd8628")
 	)
 	(fp_rect
-		(start -13.1 -13.1)
-		(end 14.6 13.1)
+		(start -14.4 -14.4)
+		(end 14.4 14.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "846b5433-2b7f-4198-bc55-960ce99f4c5e")
 	)
 	(fp_rect
-		(start -14.3 -14.3)
-		(end 15.8 14.3)
+		(start -15.0 -15.7)
+		(end 15.4 15.7)
 		(stroke
 			(width 0.1)
 			(type solid)

@@ -38,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" "The ball cup of ErgoCai.modules trackball/PMW3610-pogo (cup/cup.js, 3D printed) with its 25 mm ball and three 2.5 mm support balls in place, for the 3D view only: no copper, nothing in the BOM. The cup is 28.4 mm round with a plate over the board, inside the case opening of the joystick mount, and snaps onto the board's top and bottom edges. Origin on the ball's axis, the sensor's optical centre; the model is cup.js --step, for the lens's reference plane 4.35 mm over a 1.6 mm board."
+	(property "Description" "The ball seat of ErgoCai.modules trackball/PMW3610-pogo (cup/cup.js --fix cartridge --style seat, 3D printed) with its 25 mm ball and seven 2 mm PTFE balls (three supports, four holding it down) in place, for the 3D view only: no copper, nothing in the BOM. A cartridge as joystick/Alpsalpine-pogo's retainer: the seat one print with a frame round the board, whose two arms snap under the case's top layer, and a printed base under the board (3.8 mm spacers, spigots into the mount's holes), screwed together through the board's corner holes. Origin on the ball's axis, the sensor's optical centre; the model is cup.js --step (the seat, its frame and the base), for the lens's reference plane 4.35 mm over a 1.6 mm board."
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 14.2 0)
+		(end 15 0)
 		(stroke
 			(width 0.1)
 			(type default)
