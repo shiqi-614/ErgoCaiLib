@@ -1,4 +1,4 @@
-(footprint "Pogo_ModuleMount"
+(footprint "Pogo_ModuleMount_1x6_P2.54mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Pogo_ModuleMount"
+	(property "Value" "Pogo_ModuleMount_1x6_P2.54mm"
 		(at -0.0254 12.1158 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "A pogo module's place on the keyboard board (joystick/Alpsalpine-pogo, trackball/PMW3610-pogo, by joystick/joystick-mount-pogo): the module in its printed cartridge (the joystick's retainer, the trackball's seat), whose base stands on this board with a spigot in each of the four 2.2 mm holes, at (+-12.35, +-10.85), the same both sides so all four screws go in from the top, clear of a trackball's ball seat (16.4 mm off the axis). Or the module on four 4 mm M2 standoffs, or on M2 locating pins at the PIN corners and a 4 x 2 mm disc magnet pair at each MAG corner (north up on this board). The courtyard is what the case opens round. No 3D model of the module here: the config's assemblies place it as a part of its own (ErgoCai.modules joystick/Alpsalpine-pogo/Alpsalpine-pogo.glb, trackball/PMW3610-pogo/PMW3610-pogo.glb)"
+	(property "Description" "A pogo module's place on the keyboard board (joystick/Alpsalpine-pogo, trackball/PMW3610-pogo, by joystick/joystick-mount-pogo), for a module with six pogo pins in a 1 x 6 column at 2.54 mm, onto the contact pads next to it (Pogo_Target_1x6_P2.54mm): the module in its printed cartridge (the joystick's retainer, the trackball's seat), whose base stands on this board with a spigot in each of the four 2.2 mm holes, at (+-12.35, +-10.85), the same both sides so all four screws go in from the top, clear of a trackball's ball seat (16.4 mm off the axis). Or the module on four 4 mm M2 standoffs, or on M2 locating pins at the PIN corners and a 4 x 2 mm disc magnet pair at each MAG corner (north up on this board). The courtyard is what the case opens round. No 3D model of the module here: the config's assemblies place it as a part of its own (ErgoCai.modules joystick/Alpsalpine-pogo/Alpsalpine-pogo.glb, trackball/PMW3610-pogo/PMW3610-pogo.glb)"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
