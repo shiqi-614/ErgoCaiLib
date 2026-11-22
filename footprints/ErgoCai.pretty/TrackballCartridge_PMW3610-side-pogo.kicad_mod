@@ -1,0 +1,88 @@
+(footprint "TrackballCartridge_PMW3610-side-pogo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "trackball cartridge PMW3610 side")
+	(property "Reference" "REF**"
+		(at 0 -16 0)
+		(layer "F.Fab")
+		(uuid "f27e67d6-14a2-43ec-87f8-3272291a4e60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TrackballCartridge_PMW3610-side-pogo"
+		(at 0 16 0)
+		(layer "F.Fab")
+		(uuid "9ced2e87-1240-41a3-93ad-ba137d3e0d3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e6fbadf-ecf6-4a58-809a-8ffd37c567c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "The side-read trackball's cartridge on its module board (ErgoCai.modules trackball/PMW3610-side-pogo), for the 3D view only: the printed frame and base (cartridge/cartridge.js) with the 20 mm ball and the six 2 mm balls, and the sensor board (sensor/) standing upright, its lens toward the ball. No copper, nothing in the BOM. Origin on the mount's origin; the ball's axis at (0, -1.5)."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9845722-2aaa-49fd-83ee-a0daecb2c3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 -1.5)
+		(end 10 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eea0766a-28a1-4f40-8fa0-4e1a6e33f835")
+	)
+	(embedded_fonts no)
+	(model "${ERGOCAI_LIB}/3dmodels/TrackballCartridge_PMW3610-side-pogo.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${ERGOCAI_LIB}/3dmodels/PMW3610-side-pogo-sensor.step"
+		(offset
+			(xyz 18.35 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
