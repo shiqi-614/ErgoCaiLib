@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "A pogo module's place on the keyboard board (joystick/Alpsalpine-pogo, trackball/PMW3610-pogo and trackball/PMW3610-side-pogo, by joystick/joystick-mount-pogo), for a module with six pogo pins in a 1 x 6 column at 2.54 mm onto the contact pads next to it (Pogo_Target_1x6_P2.54mm, at x -11, by the thumb): the module in its printed cartridge, whose base stands on this board with a spigot in each hole it uses. Five 2.2 mm holes: four at (+-12.35, +-10.85), for the joystick and the trackball read from above, turned half a turn so their pins come to x -11; and (24.5, 0), which the side-read trackball uses with the two at x -12.35. The courtyard is what the case opens round for the joystick and the trackball read from above (-14.6..14.6 by -13.1..13.1); User.1 draws the side-read trackball's outline (its module board's and its ball seat's at the case's top, written by ErgoCai.modules trackball/PMW3610-side-pogo build/mount_outline.py for the ball there), for a case of its own (layers [User.1], cut: outline). No 3D model of the module here: the config's assemblies place it as a part of its own"
+	(property "Description" "A pogo module's place on the keyboard board (joystick/Alpsalpine-pogo, trackball/PMW3610-pogo and trackball/PMW3610-side-pogo, by joystick/joystick-mount-pogo), for a module with six pogo pins in a 1 x 6 column at 2.54 mm onto the contact pads next to it (Pogo_Target_1x6_P2.54mm, at x -11, by the thumb): the module in its printed cartridge, whose base stands on this board with a spigot in each hole it uses. Four 2.2 mm holes at (+-12.35, +-10.85): the joystick and the trackball read from above use all four, turned half a turn so their pins come to x -11; the side-read trackball the two at x -12.35 (a fifth at (24.5, 0), which it used, went when its module board stopped short of it). The courtyard is what the case opens round for the joystick and the trackball read from above (-14.6..14.6 by -13.1..13.1); User.1 draws the side-read trackball's outline (its module board's and its ball seat's at the case's top, written by ErgoCai.modules trackball/PMW3610-side-pogo build/mount_outline.py for the ball there), for a case of its own (layers [User.1], cut: outline). No 3D model of the module here: the config's assemblies place it as a part of its own"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -110,7 +110,7 @@
 		(uuid "e5de4509-ab0a-41b2-a78c-482232d691dd")
 	)
 	(fp_poly
-		(pts (xy 22.3 7.02) (xy 22.3 4.6) (xy 23.3 4.6) (xy 23.3 -13.1) (xy -14.6 -13.1) (xy -14.6 13.1) (xy 19.767 13.1))
+		(pts (xy 22.95 -13.1) (xy -14.6 -13.1) (xy -14.6 13.1) (xy 22.95 13.1))
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -256,24 +256,6 @@
 				(thickness 0.12)
 			)
 		)
-	)
-	(fp_circle
-		(center 24.5 0)
-		(end 26.4 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "df2b22d1-0335-423e-8961-71952de3344b")
-	)
-	(pad "" np_thru_hole circle
-		(at 24.5 0)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "a5e07c06-b561-4f9c-977f-bc01eab147b9")
 	)
 	(embedded_fonts no)
 )
